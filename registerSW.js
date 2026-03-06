@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/verb-daily/sw.js', { scope: '/verb-daily/' })})}
